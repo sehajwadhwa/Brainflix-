@@ -1,0 +1,39 @@
+/* mobile-styling-start */
+.hero {
+  height: 57.19vw;
+  &__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    &:focus {
+      outline-width: 0;
+    }
+  }
+}
+/* mobile-styling-end */
+
+/* tablet-styling-start */
+@include medium {
+  .hero {
+    height: 25rem;
+    background-color: black;
+    text-align: center;
+    &__video {
+      width: 43.75rem;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+/* tablet-styling-end */
+
+/* desktop-styling-start */
+@include large {
+  .hero {
+    height: 33.75rem;
+    &__video {
+      width: 59rem;
+    }
+  }
+}
+/* desktop-styling-end */

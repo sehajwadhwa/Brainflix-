@@ -1,0 +1,123 @@
+/* mobile-styling-start */
+.main {
+  margin: 2rem 1rem 2.5rem 1rem;
+  &__title {
+    @include mobile-header;
+    margin: 0 0 1rem 0;
+  }
+  &__subtitle-container {
+    display: flex;
+    margin-bottom: 2rem;
+
+    &--author {
+      @include mobile-subheader;
+      padding-right: 0.5rem;
+      margin: 0;
+    }
+    &--date {
+      @include mobile-subheader;
+      color: $silver;
+      margin: 0;
+    }
+  }
+  &__views-likes-container {
+    display: flex;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $mercury;
+  }
+  &__views-container {
+    display: flex;
+    margin-right: 1.5rem;
+    &--icon {
+      padding-right: 0.5rem;
+    }
+    &--number {
+      @include mobile-subheader;
+      margin: 0;
+    }
+  }
+  &__likes-container {
+    display: flex;
+    &--icon {
+      padding-right: 0.5rem;
+    }
+    &--number {
+      @include mobile-subheader;
+      margin: 0;
+    }
+  }
+  &__description-container {
+    margin-top: 1.5rem;
+    &--text {
+      @include mobile-paragraph;
+      margin: 0;
+    }
+  }
+}
+/* mobile-styling-end */
+
+/* tablet-styling-start */
+@include medium {
+  .main {
+    margin: 3rem 1.5rem 4rem 1.5rem;
+
+    &__title {
+      font-weight: 700;
+      @include header-one;
+      margin-bottom: 1.5rem;
+    }
+
+    &__subtitle-container {
+      &--author {
+        @include sub-header;
+      }
+    }
+
+    &__views-likes-container {
+      border: none;
+    }
+
+    &__views-container {
+      &--number {
+        align-self: center;
+      }
+    }
+
+    &__likes-container {
+      &--number {
+        align-self: center;
+      }
+    }
+
+    &__subtitle-views-likes-container {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid $mercury;
+    }
+
+    &__description-container {
+      margin-top: 2.5rem;
+      &--text {
+        word-wrap: break-word;
+        width: 68%;
+      }
+    }
+  }
+}
+
+/* tablet-styling-end */
+
+/* desktop-styling-start */
+@include large {
+  .main {
+    margin: 3rem 0px 4rem 11.25rem;
+
+    &__main-container {
+      width: 712px;
+    }
+    &__views-likes-container {
+      border: none;
+      padding-right: 2rem;
+    }
+  }
+}

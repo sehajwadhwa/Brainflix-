@@ -1,0 +1,104 @@
+/* mobile-styling-start */
+
+.sidevideo {
+  margin: 2.5rem 1rem 1.5rem 1rem;
+
+  &__bigboi {
+    text-decoration: none;
+  }
+  &__title {
+    font-family: "Avenir";
+    font-weight: normal;
+    @include mobile-labels;
+    color: $silver;
+    margin: 0 0 2.5rem 0;
+  }
+
+  &__template-container {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  &__image {
+    width: 120px;
+    height: 70px;
+    margin-right: 1rem;
+    object-fit: cover;
+    border-radius: 0.3125rem;
+  }
+
+  &__title-video {
+    font-family: "Avenir";
+    font-weight: normal;
+    overflow: hidden;
+    width: 47.5vw;
+    max-width: 11rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    @include mobile-subheader;
+
+    color: $black;
+    margin: 0 0 1rem 0;
+  }
+
+  &__channel {
+    font-family: "Avenir";
+    color: $black;
+    @include mobile-paragraph;
+    margin: 0;
+  }
+
+  /* tablet-styling-start */
+
+  @include medium {
+    .sidevideo {
+      margin: 2.5rem 1.5rem 1.5rem 1.5rem;
+
+      &__title-video {
+        font-family: "Avenir";
+        font-weight: normal;
+        @include mobile-paragraph;
+        word-break: break-word;
+        width: 164px;
+        margin: 0;
+      }
+
+      &__channel {
+        font-family: "Avenir";
+        font-weight: normal;
+        @include mobile-paragraph;
+        margin: 0;
+      }
+    }
+  }
+
+  /* tablet-styling-end */
+
+  /* desktop-styling-start */
+
+  @include large {
+    .sidevideo {
+      padding: 2.5rem 11.25rem 0px 1.5rem;
+      margin: 0;
+
+      &__title-video {
+        font-family: "Avenir";
+        font-weight: normal;
+        @include mobile-paragraph;
+        word-break: break-word;
+        width: 10.4375rem;
+        margin: 0;
+      }
+
+      &__channel {
+        font-family: "Avenir";
+        font-weight: normal;
+        @include mobile-paragraph;
+        margin: 0;
+      }
+    }
+  }
+}
+/* desktop-styling-end */
