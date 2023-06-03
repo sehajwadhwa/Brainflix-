@@ -1,0 +1,132 @@
+/* mobile-styling-start */
+.header {
+  height: 10.5625rem;
+  border-bottom: 1px solid $mercury;
+  &__main-container {
+    margin: 0 1rem 1rem 1rem;
+  }
+  &__logo-container {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  &--link {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  &__search-container {
+    display: flex;
+    height: 3.0313rem;
+    align-items: center;
+    border: 1px solid $mercury;
+    background-color: $alabaster;
+    border-radius: 0.25rem;
+    &--icon {
+      padding: 0 0.625rem 0 1.25rem;
+    }
+    &--search {
+      text-decoration: none;
+      font-family: "Avenir";
+      @include mobile-paragraph;
+    }
+  }
+  &__upload-container {
+    display: flex;
+
+    &-inner {
+      display: flex;
+      width: 14rem;
+      height: 3.0313rem;
+      background-color: $blue-light;
+      margin: 1rem 1rem 0 0;
+      border-radius: 0.25rem;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      &:hover {
+        background-color: $blue;
+        cursor: pointer;
+      }
+
+      &--icon {
+        padding: 0 0.625rem 0 0;
+      }
+
+      &--upload {
+        font-family: "Avenir";
+        @include mobile-paragraph;
+        margin: 0;
+        color: $white;
+        border: none;
+      }
+    }
+    &--link {
+      text-decoration: none;
+    }
+
+    &--picture {
+      height: 3rem;
+      width: 3rem;
+      margin: 0.5rem 0 0 0;
+      background-image: url("../../assets/Images/Mohan-muruge.jpg");
+      background-position: left;
+      background-size: cover;
+      border-radius: 2rem;
+    }
+  }
+}
+/* mobile-styling-end */
+
+/* tablet-styling-start */
+
+@include medium {
+  .header {
+    height: 5rem;
+    &__main-container {
+      height: 5rem;
+      display: flex;
+      align-items: center;
+      margin: 0 1.5rem;
+    }
+    &__logo-container {
+      margin: 1rem 0;
+      padding-right: 169px;
+    }
+    &__search-container {
+      margin: 1rem 0;
+      width: 15.4375rem;
+    }
+    &__upload-container {
+      margin: 1rem 0;
+      margin-left: auto;
+
+      &-inner {
+        margin: 0 1rem;
+      }
+
+      &--picture {
+        align-self: flex-end;
+        margin: 0;
+      }
+    }
+  }
+}
+/* tablet-styling-end */
+
+/* desktop-styling-start */
+@include large {
+  .header {
+    &__main-container {
+      margin: 0 11.25rem;
+    }
+    &__logo-container {
+      padding-right: 509px;
+    }
+    &__search-container {
+      width: 16.4375rem;
+    }
+  }
+}
+/* desktop-styling-start */
