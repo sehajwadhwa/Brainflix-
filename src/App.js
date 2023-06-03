@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+// import "./styles/global.css";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Upload from "./components/Upload";
+import { Router, Switch, Route } from "react-router-dom";
+import "./styles/global.scss";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route
+            path="/video/:id"
+            render={(props) => {
+              return <Home {...props} />;
+            }}
+          />
+          <Route path="/upload" exact component={Upload} />
+        </Switch>
+      </Router>
+    );
+  }
 }
-
 export default App;
