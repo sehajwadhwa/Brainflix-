@@ -1,0 +1,123 @@
+@use "../../../styles/partials/variables" as *;
+@use "../../../styles/partials/mixins" as *;
+.uploads {
+  padding: $mobile-spacing;
+  border-top: 1px solid $grey-med;
+  @include tablet {
+    padding: 1.5 * $tablet-spacing $tablet-spacing;
+  }
+  @include desktop {
+    padding: $desktop-spacing $desktop-side-spacing $desktop-spacing
+      $desktop-side-spacing;
+  }
+  @include desktop-xl {
+    padding-left: $desktop-xl-side-spacing;
+    padding-left: $desktop-xl-side-spacing;
+  }
+  &__title {
+    padding-bottom: 20px;
+    @include tablet {
+      font-size: 2.25em;
+      padding-bottom: $tablet-spacing;
+      border-bottom: 1px solid $grey-med;
+      width: 100%;
+    }
+  }
+  &__form-wrap {
+    @include tablet {
+      padding-top: 1.5 * $tablet-spacing;
+    }
+    @include desktop {
+      @include flex-container($align: flex-start);
+      position: relative;
+    }
+    &::after {
+      @include desktop {
+        content: "";
+        z-index: 5;
+        position: absolute;
+        border-bottom: 1px solid $grey-med;
+        bottom: 120px;
+        width: 100%;
+      }
+    }
+  }
+  &__thumbnail {
+    background-image: url(../../../assets/images-bf/upload-video-preview.jpg);
+    @include background-img;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 153px;
+    margin-top: 6px;
+    margin-bottom: 30px;
+    @include mobile-large {
+      height: 183px;
+      width: 344px;
+    }
+    @include tablet {
+      margin-bottom: 30px;
+    }
+  }
+  &__form {
+    @include tablet {
+      padding-top: 1.5 * $tablet-spacing;
+    }
+    @include desktop {
+      width: 70%;
+      margin-left: 24px;
+      margin-top: -14px;
+    }
+  }
+  &__inputTitle,
+  &__inputDesc,
+  &__button {
+    width: 100%;
+  }
+  &__inputTitle {
+    margin-bottom: 20px;
+    padding: 0.9rem;
+  }
+  &__inputDesc {
+    height: 143px;
+    margin-bottom: $mobile-spacing;
+    @include tablet {
+      height: 141px;
+    }
+    @include desktop {
+      height: 91px;
+    }
+  }
+  &__border {
+    @include tablet {
+      border-top: 1px solid $grey-med;
+      padding: $tablet-spacing 0;
+      margin-top: 40px;
+      @include flex-container($align: baseline, $spacing: flex-start);
+      flex-direction: row-reverse;
+    }
+    @include desktop {
+      width: 100%;
+      border-top: none;
+    }
+  }
+  &__button {
+    margin-bottom: 0;
+    &:hover {
+      background-color: $blue-hover;
+    }
+    @include tablet {
+      width: 160px;
+    }
+  }
+  &__button-delete {
+    margin-top: 6px;
+    background-color: #fff;
+    color: $blue-primary;
+    @include tablet {
+      margin-right: 4px;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+}

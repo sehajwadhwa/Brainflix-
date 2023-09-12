@@ -1,0 +1,75 @@
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.post {
+  padding: $mobile-spacing;
+  @include tablet {
+    padding: 1.5*$tablet-spacing $tablet-spacing;
+  }
+  @include desktop {
+    max-width: 712px;
+    margin: 0;
+    padding-left: 160px;
+  }
+  &__header {
+    padding-bottom: 4px;
+    border-bottom: 1px solid $grey-med;
+    @include tablet {
+      padding-bottom: 0;
+    }
+    @include desktop {
+      padding-bottom: 0;
+    }
+    &--title {
+      font-size: 1.5em;
+      @include tablet {
+        font-size: 2.25em;
+      }
+    }
+  }
+  &__flex {
+    @include tablet {
+      @include flex-container($spacing: space-between);
+    }
+  }
+  &__row {
+    @include flex-container($align: baseline, $spacing: flex-start);
+    padding-bottom: 0.5*$mobile-spacing;
+  }
+  &__row-subtitle {
+    font-weight: 600;
+    margin: 6px 8px 0 0;
+  }
+  &__row-date {
+    color: $grey-dark;
+    font-size: 0.85em;
+    line-height: 0.85em;
+  }
+  &__row-icon {
+    margin-right: 0.5*$mobile-spacing;
+      @include tablet {
+        margin-right: 7px;
+        margin-left: 24px;
+      }
+  }
+  &__row-count {
+    margin-right: 1.5*$mobile-spacing;
+      @include tablet {
+        margin-right: 0;
+      }
+  }
+  &__row-icon, &__row-count {
+    align-self: center;
+    font-size: 0.9em;
+    line-height: 0.9em;
+  }
+  &__content {
+    padding: 0.5*$mobile-spacing 0 0 0;
+    line-height: 20px;
+    @include tablet {
+      padding: $mobile-spacing 0 0 0;
+      width: 72%;
+      line-height: 1.6em;
+    }
+  }
+}
