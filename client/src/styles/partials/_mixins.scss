@@ -1,0 +1,55 @@
+// @use '../../styles/global.scss' as*;
+@use './typography' as *;
+@use './variables' as *;
+
+
+//media-queries
+@mixin mobile-large {
+    @media (min-width: $mobile-large) {
+    @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: $tablet) {
+    @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: $desktop) {
+    @content;
+    }
+}
+@mixin desktop-xl {
+    @media (min-width: $desktop-xl) {
+    @content;
+    }
+}
+
+//background images
+@mixin background-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+//font-styles
+@mixin font($size: null, $color: null, $weight: null) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight; 
+}
+@mixin about-h4 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 900;
+    padding-top: 0.5*$tablet-spacing;
+}
+
+//flex container positions
+@mixin flex-container($align: null, $spacing: null, $wrap: null) {
+    display: flex;
+    align-items: $align;
+    justify-content: $spacing;
+    flex-wrap: $wrap;
+}
+

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/global.scss';
+import {Switch, Route} from "react-router-dom";
+import MainNav from './components/MainNav/MainNav';
+import Home from './pages/HomePage/Home';
+import Upload from './pages/VideoUploadPage/Upload';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  render() {
+    return (
+      <>
+        <MainNav />
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path="/upload" render={(routerProps)=><Upload {...routerProps}/>}/>
+            <Route path="/video/:id" render={(routerProps)=><Home {...routerProps}/>}/>
+          </Switch>
+      </>
+    );
+  }
 }
-
 export default App;

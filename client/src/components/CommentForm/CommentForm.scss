@@ -1,0 +1,146 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *; 
+
+.comments {
+  padding: 0 1em;
+  max-width: 100vw;
+  box-sizing: border-box;
+  @include mobile-large {
+    padding: $tablet-spacing;
+  }
+  @include tablet {
+    padding-top: 0;
+    padding-bottom: $mobile-spacing;
+  }
+  @include desktop {
+    width: 712px;
+    padding-left: 170px;
+  }
+  @include desktop-xl {
+    padding-left: $desktop-xl-side-spacing;
+  }
+  &__counter {
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    padding: 4px 0 0 0;
+    @include tablet {
+      left: -$mobile-spacing;
+    }
+    @include desktop-xl {
+      left: 0;
+    }
+  }
+  //Form
+  &__form-wrap {
+    @include flex-container($spacing: space-between);
+    border-bottom: 1px solid $grey-med;
+    padding: 1em 0;
+    position: relative;
+    @include mobile-large {
+      padding: 0 $mobile-spacing;
+    }
+    @include tablet {
+      padding-bottom: 18px;
+      padding-top: 13px;
+    }
+    @include desktop {
+      min-width: 614px;
+    }
+  }
+  &__form-wrap, &__stream {
+    margin: auto;
+    box-sizing: border-box;
+    @include tablet {
+      max-width: 688px;
+      margin-left: $tablet-spacing;
+    }
+    @include desktop {
+      margin: auto;
+    }
+    @include desktop-xl {
+      min-width: 712px;
+    }
+  }
+  &__form {
+    padding-top: 18px;
+    @include mobile-large {
+      width: 100%;
+      margin-left: 20px;
+    }
+    @include tablet {
+      @include flex-container($spacing: space-around);
+      align-items: flex-end;
+      width: 100%;
+      margin-left: 0;
+    }
+    @include desktop-xl {
+      margin-right: 50px;
+    }
+  }
+  &__avatar-form {
+    background-image: url(../../assets/images-bf/mohan-muruge.jpg);
+    @include background-img;
+    background-position: left;
+    margin-top: 60px;
+    height: 48px;
+    min-width: 48px;
+    @include tablet {
+      margin: 65px 16px 0 -34px;
+      min-width: 48px;
+    }
+    @include desktop {
+      margin-right: 20px;
+    }
+    @include desktop-xl {
+      margin-right: 20px;
+      margin-left: -20px;
+    }
+  }
+  &__label {
+    color: $grey-dark;
+    font-weight: 600;
+    margin-top: 1.25em;
+    @include tablet {
+      font-size: 0.75em;
+    }
+    @include desktop-xl {
+      font-size: 0.8125em;
+    }
+  }
+  &__input {
+    height: 90px;
+    @include tablet {
+      height: 50px;
+      width: 443px;
+      margin-top: 4px;
+    }
+    @include desktop {
+      width: 390px;
+    }
+    @include desktop-xl {
+      width: 436px;
+      margin-left: 6px;
+      margin-right: 2px;
+    }
+  }
+  &__button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    &:hover {
+      background-color: #0065AD;
+    }
+    @include tablet {
+      width: 159px;
+      margin: 0 $tablet-spacing 6px 16px;
+    }
+    @include desktop {
+      width: 140px;
+      margin-right: 0;
+    }
+    @include desktop-xl {
+      width: 159px;
+      margin-right: 16px;
+    }
+  }
+}

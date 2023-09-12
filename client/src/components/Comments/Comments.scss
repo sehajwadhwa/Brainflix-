@@ -1,0 +1,100 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+.comments {
+    &__stream {
+        margin: auto;
+        @include tablet {
+          padding-bottom: 0.5*$desktop-spacing;
+          margin-left: $tablet-spacing;
+        }
+        @include desktop {
+          margin: auto;
+        }
+      }
+      &__container {
+        @include flex-container($spacing: flex-start);
+        border-bottom: 1px solid $grey-med;
+        padding: 1.5*$mobile-spacing 0 10px 0;
+        position: relative;
+        @include mobile-large {
+          padding: $tablet-spacing;
+        }
+        @include tablet {
+          padding: 18px 0 6px 0;
+        }
+        @include desktop {
+          min-width: 614px;
+        }
+        @include desktop-xl {
+          min-width: 712px;
+        }
+      }
+      &__avatar-comment {
+        background-color: $grey-med;
+        height: 40px;
+        min-width: 40px;
+        margin-top: 2px;
+        @include tablet {
+          margin-left: -18px;
+        }
+        @include desktop {
+          margin-top: 0;
+        }
+        @include desktop-xl {
+          margin-left: -2px;
+        }
+      }
+      &__block {
+        max-width: 210px;
+        padding-left: $mobile-spacing;
+        @include mobile-large {
+          width: 100%;
+          max-width: 400px;
+        }
+      }
+        &__block-name, &__block-date {
+          display: inline; 
+          @include tablet {
+            vertical-align: baseline;
+            font-size: 1em;
+            margin-bottom: 0;
+          }
+        }
+        &__block-name {
+          padding-bottom: 6px; 
+        }
+        &__block-date {
+          color: $grey-dark;
+          font-size: 0.8125em;
+          position: absolute;
+          right: 0;
+          top: 14px;
+          @include mobile-large {
+            position: static;
+            padding-left: 10px;
+          }
+          @include tablet {
+            font-size: 0.875em;
+          }
+        }
+        &__block-comment {
+          margin-top: 6px;
+          @include tablet {
+            line-height: 20px;
+            width: 624px;
+            margin-top: 10px;
+          }
+          @include desktop {
+            max-width: 570px;
+            font-size: 0.8125em;
+          }
+          @include desktop-xl {
+            min-width: 620px;
+            font-size: 0.875em;
+          }
+        }
+      
+
+
+}
