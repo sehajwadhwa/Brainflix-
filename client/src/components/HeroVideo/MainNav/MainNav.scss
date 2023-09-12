@@ -1,0 +1,125 @@
+@use '../../styles/global.scss' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/mixins' as *;
+
+.mainNav {
+  background-color: #fff;
+  color: white;
+  min-height: 169px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px $mobile-spacing 0 $mobile-spacing;
+  @include tablet {
+    @include flex-container($align: center, $spacing: flex-start);
+    box-sizing: border-box;
+    min-height: 80px;
+    padding: 0 $tablet-spacing;
+  }
+  @include desktop {
+    padding: 0 $desktop-side-spacing;
+  }
+  @include desktop-xl {
+    padding: 0 $desktop-xl-side-spacing;
+  }
+  &__logo {
+    height: 25px;
+    width: 100%;
+    @include tablet {
+      height: 54px;
+    }
+  }
+  &__form {
+    padding-top: 2px;
+    @include tablet {
+      @include flex-container($align: center, $spacing: flex-start);
+    }
+  }
+  &__search-input {
+    background-image: url(../../assets/icons-bf/icon-search.svg);
+    background-position: 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 0;
+    @include tablet {
+      position: absolute;
+      max-width: 250px;
+      right: 9.3*$tablet-spacing;
+      top: 6px;
+    }
+    @include desktop {
+      right: 2.25*$desktop-side-spacing;
+    }
+    @include desktop-xl {
+      right: 2.1*$desktop-xl-side-spacing;
+    }
+    &:focus {
+      padding: 1.17em;
+    }
+    &[type="search"] {
+      box-sizing: border-box;
+      padding-left: 3em;
+    }
+  }
+  &__button {
+    width: 75%;
+    margin-top: 8px;
+    position: relative;
+    @include mobile-large {
+      max-width: 350px;
+    }
+    @include tablet {
+      width: 102px;
+      position: absolute;
+      right: 4*$tablet-spacing;
+      padding-right: 0;
+    }
+    @include desktop {
+      right: 1.45*$desktop-side-spacing;
+      top: 6px;
+      width: 100px;
+    }
+    @include desktop-xl {
+      right: 1.4*$desktop-xl-side-spacing;
+      width: 100px;
+    }
+    &--link {
+      @include tablet {  
+        margin-top: -71.5px;
+      }
+    }
+    &:hover {
+      background-color: $blue-hover;
+    }
+    &--icon {
+      margin-right: 12px;
+      @include tablet {
+        position: absolute;
+        left: 9px;
+        top: 17px;
+      }
+      @include desktop-xl {
+        left: 10px;
+      }
+    }
+  }
+  &__avatar-search {
+    background-image: url(../../assets/images-bf/mohan-muruge.jpg);
+    @include background-img;
+    background-position: left;
+    margin: 0 0 -19px 20px;
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    @include tablet {
+      position: absolute;
+      right: $tablet-spacing;
+      top: 14px;
+    }
+    @include desktop {
+      right: $desktop-side-spacing;
+    }
+    @include desktop-xl {
+      right: $desktop-xl-side-spacing;
+    }
+  }
+}
