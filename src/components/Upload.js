@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
-import Flip from "../assets/Images/Upload-video-preview.jpg";
-import { withRouter } from "react-router-dom";
+import Flip from "../assets/Images/Mohan-muruge.jpg";
 
-class App extends Component {
+class Upload extends Component {
   state = {
     videos: [],
   };
@@ -82,4 +81,4 @@ class App extends Component {
   }
 }
 
-export default withRouter(App);
+export default Upload;

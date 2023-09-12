@@ -3,25 +3,20 @@ import React, { Component } from "react";
 import Home from "./components/Home";
 import Header from "./components/Header";
 import Upload from "./components/Upload";
-import { Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./styles/global.scss";
 
 class App extends Component {
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <Header />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route
-            path="/video/:id"
-            render={(props) => {
-              return <Home {...props} />;
-            }}
-          />
-          <Route path="/upload" exact component={Upload} />
-        </Switch>
-      </Router>
+        <Routes>
+          <Route path="/" element={<Home></Home>} />
+          <Route path="/video/:id" element={<Home></Home>} />
+          <Route path="/upload" element={Upload} />
+        </Routes>
+      </BrowserRouter>
     );
   }
 }
