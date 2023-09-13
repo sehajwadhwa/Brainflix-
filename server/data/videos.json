@@ -9,42 +9,28 @@
     "likes": "110,985",
     "duration": "4:01",
     "video": "https://project-2-api.herokuapp.com/stream",
-    "timestamp": 1545162149000,
+    "timestamp": 1628486396690,
     "comments": [
       {
         "name": "Micheal Lyons",
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
-      },
-      {
-        "name": "Sehaj Wadhwa",
-        "comment": "So be careful with your carbon frames! Flow trail is a bit tight at the top, but gets really fast as you transition to the lower Rush. This trail is the cherry on top when riding Porcupine rim! The trails are well drained and suitable for riding when wet. Proper sized jumps, berms, rollers and wooden features, so sick! From there the trail stretches out and travels pretty fast into a big berm with a view out into the valley. ",
-        "id": "44a2b663-4a68-41f4-9e12-57cf78732c7b",
-        "likes": 0,
-        "timestamp": 1618802716675
-      },
-      {
-        "name": "Sehaj Wadhwa",
-        "comment": "ghjtj",
-        "id": "2735f89e-3001-42a6-aa57-ba32c53a1b02",
-        "likes": 0,
-        "timestamp": 1694058372457
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -65,21 +51,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -100,21 +86,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -135,21 +121,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -170,21 +156,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -205,28 +191,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
-      },
-      {
-        "name": "Sehaj Wadhwa",
-        "comment": "Travel is the movement of people between relatively distant geographical locations, and can involve travel by foot, bicycle, automobile, train, boat, bus, airplane, or other means, with or without luggage, and can be one way or round trip. Travelling can also include relatively short stays between successive movements. ",
-        "id": "d47dbb8c-235d-42ac-a145-23d755c5f131",
-        "likes": 0,
-        "timestamp": 1618802569304
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -247,21 +226,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -282,21 +261,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -317,21 +296,21 @@
         "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         "likes": 0,
-        "timestamp": 1545162149000
+        "timestamp": 1628486396690
       },
       {
         "name": "Gary Wong",
         "comment": "Every time I see him shred I feel so motivated to get off my couch and hop on my board. He’s so talented! I wish I can ride like him one day so I can really enjoy myself!",
         "id": "cc6f173d-9e9d-4501-918d-bc11f15a8e14",
         "likes": 0,
-        "timestamp": 1544595784046
+        "timestamp": 1626326396690
       },
       {
         "name": "Theodore Duncan",
         "comment": "How can someone be so good!!! You can tell he lives for this and loves to do it every day. Everytime I see him I feel instantly happy! He’s definitely my favorite ever!",
         "id": "993f950f-df99-48e7-bd1e-d95003cc98f1",
         "likes": 0,
-        "timestamp": 1542262984046
+        "timestamp": 1625980796690
       }
     ]
   },
@@ -339,11 +318,12 @@
     "id": "5215e867-4ef9-41e3-b860-f2879c56ee1b",
     "title": "This Is My Bike Review",
     "channel": "Sehaj Wadhwa",
-    "image": "http://localhost:8080/images/upload-video-preview.jpg",
+    "image": "https://imgur.com/a/ZE5kRwB",
     "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "views": 22,
+    "views": 100,
     "likes": 20,
     "duration": "duration",
+    "video": "https://project-2-api.herokuapp.com/stream",
     "timestamp": 1618802111627,
     "comments": [
       {
@@ -352,46 +332,6 @@
         "id": "72def93f-477e-413a-8666-cdb06200768e",
         "likes": 0,
         "timestamp": 1618802514003
-      }
-    ]
-  },
-  {
-    "id": "6c187465-fb33-4840-af71-a58886f215b8",
-    "title": "hgfjrtfjk",
-    "channel": "Sehaj Wadhwa",
-    "image": "http://localhost:8080/images/upload-video-preview.jpg",
-    "description": "rfjurju",
-    "views": 22,
-    "likes": 20,
-    "duration": "duration",
-    "timestamp": 1694058428627,
-    "comments": [
-      {
-        "name": "Micheal Lyons",
-        "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
-        "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
-        "likes": 0,
-        "timestamp": 1545162149000
-      }
-    ]
-  },
-  {
-    "id": "0f6630a1-abd8-48de-b65e-2cb24ef546bc",
-    "title": "ghre",
-    "channel": "Sehaj Wadhwa",
-    "image": "http://localhost:8080/images/upload-video-preview.jpg",
-    "description": "hreth",
-    "views": 22,
-    "likes": 20,
-    "duration": "duration",
-    "timestamp": 1694496253406,
-    "comments": [
-      {
-        "name": "Micheal Lyons",
-        "comment": "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
-        "id": "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
-        "likes": 0,
-        "timestamp": 1545162149000
       }
     ]
   }

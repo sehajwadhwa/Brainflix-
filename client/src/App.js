@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <>
         <MainNav />
-        <Switch>
+        {/* <Switch> */}
           <Route path="/" exact component={Home} />
           <Route
             path="/upload"
@@ -20,7 +20,7 @@ class App extends React.Component {
             path="/video/:id"
             render={(routerProps) => <Home {...routerProps} />}
           />
-        </Switch>
+        {/* </Switch> */}
       </>
     );
   }
