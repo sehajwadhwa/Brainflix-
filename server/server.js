@@ -3,10 +3,14 @@ const app = express();
 const cors = require("cors");
 const videos = require("./routes/videos");
 const port = 8080;
+const path = require("path");
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static("./public"));
+app.use(express.static("public"));
+
+app.use("/assets", express.static(path.join(__dirname, "assets")));
+console.log(path.join(__dirname, "assets"));
 
 app.use((_req, _res, next) => {
   next();

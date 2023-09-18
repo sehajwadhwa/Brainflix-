@@ -27,12 +27,13 @@ videoRoute.get("/:videoId", (req, res) => {
 });
 
 videoRoute.post("/", (req, res) => {
+  console.log("posting video test");
   const { title, description } = req.body;
   videoData.push({
     id: uuid.v4(),
     title: title,
     channel: "Sehaj Wadhwa",
-    image: "http://localhost:8080/images/upload-video-preview.jpg",
+    image: "http://localhost:8080/assets/upload-video.jpg",
     description: description,
     views: 22,
     likes: 20,
@@ -45,7 +46,7 @@ videoRoute.post("/", (req, res) => {
           "They BLEW the ROOF off at their last show, once everyone started figuring out they were going. This is still simply the greatest opening of acconcert I have EVER witnessed.",
         id: "1ab6d9f6-da38-456e-9b09-ab0acd9ce818",
         likes: 0,
-        timestamp: 1545162149000,
+        timestamp: Date.now(),
       },
     ],
   });
